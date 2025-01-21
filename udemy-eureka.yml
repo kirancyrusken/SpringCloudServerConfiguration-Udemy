@@ -1,0 +1,19 @@
+---
+spring.config.activate.on-profile: subject-client
+words: I,You,He,She,It
+
+---
+spring.config.activate.on-profile: verb-client
+words: ran,knew,had,saw,bought
+
+---
+spring.config.activate.on-profile: article-client
+words: a,the
+
+---
+spring.config.activate.on-profile: adjective-client
+words: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring.config.activate.on-profile: noun-client
+words: boat,book,vote,seat,backpack,partition,groundhog 
