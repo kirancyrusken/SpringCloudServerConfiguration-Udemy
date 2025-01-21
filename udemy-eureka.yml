@@ -11,7 +11,7 @@ spring.config.activate.on-profile: article-client
 words: a,the
 
 ---
-spring.config.activate.on-profile: adjective-client
+spring.config.activate.on-profile: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
