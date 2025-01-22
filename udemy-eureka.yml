@@ -1,19 +1,29 @@
 ---
-spring.config.activate.on-profile: subject-client
+spring:
+ config.activate.on-profile: subject-client
+ application.name: udemy-eureka-subject-client
 words: I,You,He,She,It
 
 ---
-spring.config.activate.on-profile: verb-client
+spring:
+ config.activate.on-profile: verb-client
+ application.name: udemy-eureka-verb-client
 words: ran,knew,had,saw,bought
 
 ---
-spring.config.activate.on-profile: article-client
+spring:
+ config.activate.on-profile: article-client
+ application.name: udemy-eureka-article-client
 words: a,the
 
 ---
-spring.config.activate.on-profile: adjective-client
+spring:
+ config.activate.on-profile: adjective-client
+ application.name: udemy-eureka-adjective-client
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
-spring.config.activate.on-profile: noun-client
+spring:
+ config.activate.on-profile: noun-client
+ application.name: udemy-eureka-noun-client
 words: boat,book,vote,seat,backpack,partition,groundhog 
